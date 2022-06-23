@@ -8,7 +8,7 @@ This is the frontend client for our Journal Project, which interacts with the ba
 The app allows users to create and comment on posts which are stored in the server. Posts can also be deleted, and there are several reaction emoji's available.
 
 ## 💾 Deployment
-The fontend app has been deployed on Netlify at [this link](#).
+The fontend app has been deployed on Netlify at [this link](https://my-journal-feed.netlify.app/).
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/acbe7129-01a3-43b8-ba0c-a35536ea7798/deploy-status)
 ## 🎮 Installation & usage
