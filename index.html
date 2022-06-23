@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" type="text/css" href="./static/css/styleMobile.css"> -->
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./static/img/favicon.ico" type="image/x-icon">
+    <script defer src="./bundle.js"></script>
+    <title>Journal Project</title>
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="./static/img/lemon.png" alt="logo">
+        <h1>Lemon Party</h1>
+    </header>
+
+    <div class="wrapper">
+        
+    </div class="wrapper">
+
+    <div id="formBg"></div>
+    <div id="createPost">
+        <div id="postForm">
+            <form>
+                <h2 id="formTitle">New post</h2>
+                <label for="postTitle">Title:</label>
+                <input type="text" id="postTitle" name="postTitle" maxlength="50" placeholder="Enter your title here..."
+                    required>
+                <br>
+                <label for="postContent">Post:</label>
+                <br>
+                <textarea id="postContent" name="postContent" rows="6" cols="50" maxlength="500" required></textarea>
+                <br>
+                <input id="submitBtn" type="submit" value="Submit">
+                <button id="addGifBtn">Add a GIF</button>
+                <button id="cancelBtn">Cancel</button>
+            </form>
+            <form id="gifForm" style="display: none;">
+                <label for="gifSearch">Giphy Search: </label>
+                <input id="gifSearch" type="search">
+                <button id="btnSearch">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="newPostBtn">
+
+    </div>
+</body>
+
+</html>
